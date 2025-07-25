@@ -1,16 +1,50 @@
-# 📚 buchblick
+# 📚 Buchblick – Book Club Dashboard
 
-This is a small project I’m building to help me track the reading progress of my book club.
+**Buchblick** is a personal data project built to track and analyze activities from my book club. What started as a Notion page is now a lightweight app that helps me manage our club's book data, track attendance, and visualize yearly stats – all while learning tools relevant to data roles.
 
-I used to keep this information in a Notion page, but I wanted something a bit more structured — and also an opportunity to practice with Python, data cleaning, and simple dashboards.
+## ✨ Features
 
-The idea is to:
-- Store details about books, members, and sessions (maybe in a CSV or SQLite for now)
-- Write some logic to organize and clean the data
-- Create a basic dashboard to visualize things like:
-  - Who’s reading what
-  - Which genres are popular
-  - Completion rates
-  - How we vote or choose next books
+- 📖 Track books read, genres, themes, and meeting dates
+- 👥 Manage member attendance and book suggestions
+- 📊 Dashboard view for stats like total pages read, top attendees, and most active suggesters
+- ➕ Add new books directly via the app
+- 💡 Built with reusability and potential for future automation and analytics
 
-Let’s see how far I get — I want to keep this lightweight but useful.
+## 🔧 Tech Stack
+
+- `Python`
+- `pandas` for data manipulation
+- `Streamlit` for the dashboard interface
+- `Git` for version control and project tracking
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+
+```
+git clone https://github.com/schardot/bookclub-data-pipeline
+cd buchblick
+```
+
+2. Install dependencies (preferably in a virtual environment):
+
+```
+pip install -r requirements.txt
+```
+
+3. Run the Streamlit app:
+
+```
+streamlit run app.py
+```
+
+## 📈 Future Ideas
+- Add login or member views
+
+- Voting interface for future book picks
+
+- Year-end wrap-up summary (Spotify Wrapped-style)
+
+- Deploy app for shared club use
+
+This project is actively growing. It's both a personal tool and a showcase of my data skills!
